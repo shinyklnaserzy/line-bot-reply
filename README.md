@@ -70,15 +70,15 @@ Line official Account Manager
 確定ngrok的網址(隨機生成) 放到 Line Developers 裡 Messaging API 的 Webhook settings 進行驗證
 要開啟 Use webhook(在 Webhook URL下方)
   
-主要使用程式
-/your-project
-│── /src
-|   |── /botReply                   # LINE Bot 接收回應
-│   │   │── bot.js                  # 處理 LINE Bot 事件 接收傳出訊息接口
-│   │   │── messageHandler.js       # 訊息整理與回應處理
-│   │── callback.js                 # 設定 /callback 路由
-│   │── config.js                   # 環境變數設定
-│   │── flexMessage                 # 設定回復訊息樣式
-│   │── server.js                   # 啟動 Express 伺服器
-│── .env                            # 環境變數
-│── index.js                        # node啟動位置
+主要使用程式  
+/your-project  
+│── /src  
+│   │── /botReply                   # LINE Bot 接收回應  
+│   │   │── bot.js                  # 處理 LINE Bot 事件 接收傳出訊息接口  
+│   │   │── messageHandler.js       # 訊息整理與回應處理  
+│   │── callback.js                 # 設定 /callback 路由  
+│   │── config.js                   # 環境變數設定  
+│   │── flexMessage                 # 設定回復訊息樣式  
+│   │── server.js                   # 啟動 Express 伺服器  
+│── .env                            # 環境變數  
+│── index.js                        # node啟動位置  
